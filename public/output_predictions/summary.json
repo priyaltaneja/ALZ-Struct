@@ -1,0 +1,15 @@
+{
+  "total_patients": 20,
+  "cn_patients": 10,
+  "ad_patients": 10,
+  "overall_accuracy": 0.85,
+  "sensitivity": 0.8,
+  "specificity": 0.9,
+  "confusion_matrix": {
+    "tn": 9,
+    "fp": 1,
+    "fn": 2,
+    "tp": 8
+  },
+  "threshold": 0.3
+}
