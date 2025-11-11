@@ -252,7 +252,7 @@ export default function ResultsPage() {
                 <Label>Slice {currentSliceIndex + 1} of {patientData.num_slices}</Label>
                 <div className="text-sm text-muted-foreground">
                   AI Prediction: <span className={`font-medium ${
-                    currentSlice.predicted_class === 'AD' ? 'text-red-500' : 'text-green-500'
+                    currentSlice.predicted_class.toString() === 'AD' ? 'text-red-500' : 'text-green-500'
                   }`}>
                     {currentSlice.predicted_class}
                   </span> ({(currentSlice.confidence * 100).toFixed(1)}%)

@@ -117,7 +117,7 @@ export default function DiagnosisPage() {
                   <span className={`font-medium ${
                     diagnosis === 'AD' ? 'text-red-500' : 'text-green-500'
                   }`}>
-                    {diagnosis === 'AD' ? 'Alzheimer's Disease' : 'Cognitively Normal'}
+                    {diagnosis === 'AD' ? 'Alzheimer\'s Disease' : 'Cognitively Normal'}
                   </span>
                 </div>
                 <div>
